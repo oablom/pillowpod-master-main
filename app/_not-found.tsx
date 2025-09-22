@@ -7,6 +7,7 @@ export default function NotFoundPage() {
     <EmptyState
       title="Page not found"
       subtitle="Please consult Oa for assistance."
+      showReset={false}
     />
   );
 }

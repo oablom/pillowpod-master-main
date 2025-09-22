@@ -13,6 +13,7 @@ export default function Custom404() {
       <EmptyState
         title="Damnit, the page is missing!"
         subtitle="Please consult Oa for assistance."
+        showReset={false}
       />
     </div>
   );
