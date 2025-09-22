@@ -1,11 +1,9 @@
-// app/404/page.tsx
 "use client";
 
 import { useEffect } from "react";
-import EmptyState from "../app/components/EmptyState";
+import EmptyState from "../components/EmptyState";
 
 export default function Custom404() {
-  // Client-side loggning
   useEffect(() => {
     console.error("Page not found: 404");
   }, []);
