@@ -1,19 +1,12 @@
-"use client";
-
-import { useEffect } from "react";
-import EmptyState from "../components/EmptyState";
+// app/404.tsx
+import EmptyStateStatic from "../components/EmptyStateStatic";
 
 export default function Custom404() {
-  useEffect(() => {
-    console.error("Page not found: 404");
-  }, []);
-
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-gray-900 p-4">
-      <EmptyState
+      <EmptyStateStatic
         title="Damnit, the page is missing!"
         subtitle="Please consult Oa for assistance."
-        showReset={false}
       />
     </div>
   );

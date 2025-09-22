@@ -1,13 +1,10 @@
-"use client";
-
-import EmptyState from "./components/EmptyState";
+import EmptyStateStatic from "../app/components/EmptyStateStatic";
 
 export default function NotFoundPage() {
   return (
-    <EmptyState
+    <EmptyStateStatic
       title="Page not found"
       subtitle="Please consult Oa for assistance."
-      showReset={false}
     />
   );
 }

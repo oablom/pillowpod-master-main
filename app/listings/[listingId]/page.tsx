@@ -1,7 +1,7 @@
 export const dynamic = "force-dynamic";
 
 import { getListingById } from "@/app/actions/getListingById";
-import EmptyState from "@/app/components/EmptyState";
+import EmptyState from "@/app/components/EmptyStateStatic";
 import ClientOnly from "@/app/components/ClientOnly";
 import getCurrentUser from "@/app/actions/getCurrentUser";
 import ListingClient from "./ListingClient";

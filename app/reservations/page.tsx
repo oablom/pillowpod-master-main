@@ -1,6 +1,6 @@
 export const dynamic = "force-dynamic";
 
-import EmptyState from "../components/EmptyState";
+import EmptyState from "../components/EmptyStateStatic";
 import ClientOnly from "../components/ClientOnly";
 import ReservationsClient from "../reservations/ReservationsClient";
 import getCurrentUser from "../actions/getCurrentUser";
