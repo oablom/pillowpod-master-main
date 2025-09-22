@@ -1,4 +1,3 @@
-// app/404.tsx
 import EmptyStateStatic from "../components/EmptyStateStatic";
 
 export default function Custom404() {
