@@ -1,5 +1,4 @@
-export const dynamic = "force-dynamic";
-import EmptyStateStatic from "../app/components/EmptyStateStatic";
+import EmptyStateStatic from "./components/EmptyStateStatic";
 
 export default function NotFoundPage() {
   return (
