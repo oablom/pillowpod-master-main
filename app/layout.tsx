@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+export const dynamic = "force-dynamic";
 import DarkModeToggle from "./components/DarkModeToggle";
 // import localFont from "next/font/local";
 // import { Nunito } from "next/font/google";
